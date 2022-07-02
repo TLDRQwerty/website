@@ -8,4 +8,6 @@ export default defineConfig({
   markdown: {
     drafts: true,
   },
+  site: 'https://tldrqwerty.github.io',
+  base: 'website',
 });
