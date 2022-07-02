@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from "react";
+import { TbMoon, TbSun } from 'react-icons/tb'
 
 const STORAGE_KEY = "PREFERRED_COLOR_THEME";
 
@@ -32,7 +33,7 @@ export default function Counter() {
       className="hover:dark:text-primary-500 hover:text-primary-800 hover:dark:bg-white/5 hover:bg-gray-800/5 rounded-xl p-2 transition-all"
       onClick={handleClick}
     >
-      {theme}
+      {theme === 'light' ? <TbMoon size="24" /> : <TbSun size="24" />}
     </button>
   );
 }

@@ -15,5 +15,8 @@
     "astro": "^1.0.0-beta.63",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "react-icons": "^4.4.0"
   }
 }
