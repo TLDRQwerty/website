@@ -1,0 +1,15 @@
+---
+import Link from "@components/Link";
+import ColorTheme from "@components/ColorTheme";
+---
+
+<header class="flex flex-row justify-between font-bold m-2">
+  <div class="flex flex-row">
+    <Link href="/" label="Charlie Carolan" />
+    <ColorTheme client:only />
+  </div>
+  <div class="flex-row flex space-x-4">
+    <Link href="https://github.com/tldrqwerty" label="Github" />
+    <Link href="./blog" label="Blog" />
+  </div>
+</header>
