@@ -10,4 +10,11 @@ export default defineConfig({
   },
   site: 'https://tldrqwerty.github.io',
   base: 'website',
+  markdown: {
+    shikiConfig: {
+      theme: 'github-dark',
+      langs: [],
+      wrap: true,
+    },
+  },
 });
